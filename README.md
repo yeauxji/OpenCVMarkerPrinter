@@ -1,5 +1,8 @@
 # OpenCVMarkerPrinter
 
+## Update Note
+Now you can save CharUco marker with different start marker ID, so you can print more than 1 ChArUco pattern by changing the ID value
+
 ## Description
 This small app can save some commonly used opencv markers such as ArUco, ArUcoGrid, Chessboard and ChArUco to vector graphics file. **Supported vector graphics file format: .svg, .pdf and .ps.**
 
