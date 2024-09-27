@@ -126,6 +126,8 @@ class MarkerPrinter:
         dawMarkerBlock = False
         if ((mode == "ARUCO") or (mode == "ARUCOGRID")):
             dawMarkerBlock = True
+        elif(mode == "CHARUCO"):
+            dawMarkerBlock = (( blockX % 2 == 0 ) != ( blockY % 2 == 0 ))
         elif(chessboardSize[1] % 2 == 0):
             dawMarkerBlock = (( blockX % 2 == 0 ) == ( blockY % 2 == 0 ))
         else:
