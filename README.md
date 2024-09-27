@@ -1,5 +1,8 @@
 # OpenCVMarkerPrinter
 
+## Update Note (092724)
+Change CharUco marker layout to match opencv 4.6 and later
+
 ## Update Note
 Now you can save CharUco marker with different start marker ID, so you can print more than 1 ChArUco pattern by changing the ID value
 
